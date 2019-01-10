@@ -1,0 +1,4 @@
+C:\Users\adila\Documents\Github\MobileCalc\MobileCalculator\MobileCalculator.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\adila\Documents\Github\MobileCalc\MobileCalculator\MobileCalculator.Android\obj\Debug\81\MobileCalculator.Android.csprojAssemblyReference.cache
+C:\Users\adila\Documents\Github\MobileCalc\MobileCalculator\MobileCalculator.Android\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\adila\Documents\Github\MobileCalc\MobileCalculator\MobileCalculator.Android\obj\Debug\81\res.flag

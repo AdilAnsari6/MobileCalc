@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileCalculator.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Calculator!"
+           x:Name="display"
+           FontSize="Large"
+           HorizontalOptions="Center"
+           VerticalOptions="Start" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Button Text="C" FontSize="Large" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button Text="Del" FontSize="Large" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked"/>
+            <Button Text="/" FontSize="Large" Grid.Row="0" Grid.Column="3" Clicked="Button_Clicked"/>
+            <Button Text="7" FontSize="Large" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked"/>
+            <Button Text="8" FontSize="Large" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button Text="9" FontSize="Large" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
+            <Button Text="*" FontSize="Large" Grid.Row="1" Grid.Column="3" Clicked="Button_Clicked"/>
+            <Button Text="4" FontSize="Large" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked"/>
+            <Button Text="5" FontSize="Large" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button Text="6" FontSize="Large" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked"/>
+            <Button Text="-" FontSize="Large" Grid.Row="2" Grid.Column="3" Clicked="Button_Clicked"/>
+            <Button Text="1" FontSize="Large" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked"/>
+            <Button Text="2" FontSize="Large" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button Text="3" FontSize="Large" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked"/>
+            <Button Text="+" FontSize="Large" Grid.Row="3" Grid.Column="3" Clicked="Button_Clicked"/>
+            <Button Text="0" FontSize="Large" Grid.Row="4" Grid.Column="1" Clicked="Button_Clicked"/>
+            <Button Text="=" FontSize="Large" Grid.Row="4" Grid.Column="3" Clicked="Button_Clicked"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

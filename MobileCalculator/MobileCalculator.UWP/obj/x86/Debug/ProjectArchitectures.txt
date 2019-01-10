@@ -1,0 +1,1 @@
+C:\Users\adila\Documents\Github\MobileCalc\MobileCalculator\MobileCalculator.UWP\MobileCalculator.UWP.csproj;x86
