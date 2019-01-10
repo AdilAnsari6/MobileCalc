@@ -5,7 +5,7 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Calculator!"
+        <Label Text=""
            x:Name="display"
            FontSize="Large"
            HorizontalOptions="Center"

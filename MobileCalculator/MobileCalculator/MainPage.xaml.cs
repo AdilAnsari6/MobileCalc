@@ -9,6 +9,8 @@ namespace MobileCalculator
 {
     public partial class MainPage : ContentPage
     {
+        int num = 0;
+        int sum;
         public MainPage()
         {
             InitializeComponent();
@@ -17,7 +19,35 @@ namespace MobileCalculator
         private void Button_Clicked(object sender, EventArgs e)
         {
             Button b = sender as Button;
-            display.Text = b.Text;
+            if ("0123456789".Contains(b.Text))
+            {
+                display.Text += b.Text;
+            }
+            else if ("+-*/".Contains(b.Text))
+            {
+                if(b.Text.Equals("+"))
+                {
+                    sum += Convert.ToInt32(display.Text);
+                    display.Text = b.Text;
+                }
+                if (b.Text.Equals("-"))
+                {
+                    sum -= Convert.ToInt32(display.Text);
+                }
+                if (b.Text.Equals("*"))
+                {
+                    sum *= Convert.ToInt32(display.Text);
+                }
+                if (b.Text.Equals("/"))
+                {
+                    sum /= Convert.ToInt32(display.Text);
+                }
+            }
+            else if (b.Text.Equals("Del"))
+            {
+                if(display.Text!="")
+                display.Text = display.Text.Substring(0, display.Text.Length - 1);
+            }
         }
     }
 }
