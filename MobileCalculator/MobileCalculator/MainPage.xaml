@@ -18,11 +18,11 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
-                <RowDefinition Height="100"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="120"/>
             </Grid.RowDefinitions>
             <Button Text="C" FontSize="Large" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked"/>
             <Button Text="Del" FontSize="Large" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked"/>
